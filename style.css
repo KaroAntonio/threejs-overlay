@@ -1,0 +1,41 @@
+body, html {
+    border: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: static;
+    z-index: -1;
+}
+
+#content_overlay {
+    top: 0;
+    position: absolute;
+    text-align: left;
+    background: transparent;
+    font-size: 20px;
+    /*font-family: 'Alegreya SC', serif;*/
+    font-family: sans-serif;
+    width: 60vw;
+    left: 20vw;
+    right: 20vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#content_placebo {
+    display: none;
+}
+
+#inline {
+    width: 40vw;
+    height: 40vw
+    left: 25vw;
+    right: 25vw;
+    position: absolute;
+}
+
